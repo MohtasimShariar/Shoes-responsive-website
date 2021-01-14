@@ -1,11 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoes-responsive-website</title>
-</head>
-<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shoes responsive website</title>
     
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+    <header class="container">
+        <!-- Navigation side start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+            <img src="Logo, Icon/Logo.png" alt="">
+            </a>
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Navigation side end -->
+
+        <!--show product start-->
+        <section class="container overflow-hidden">
+            <div class="row gx-5">
+                       
+                <div class="col-md-5">
+                    <img src="Photos/Group 33092.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="col-md-7 d-flex align-items-center justify-content-around ">
+                    <div class=" d-block">
+                        <h1><span class="text-warning" style="color:#F57F17;">NIKE REACT</span></h1>
+                        <h1>INFINITY RUN 2</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Ab corrupti dolore pariatur.</p>
+                        <button class="btn btn-primary text-light" style="color: #311B92;">Buy Now</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--show product end-->   
+    </header>
+
+     <!-- casual shoe Cards  starts here -->
+
+    <main class="container">
+       <section class="mt-5">
+            <div class="col-auto mr-auto ">
+                <h3>CASUAL SHOES</h3>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 category-space">
+                <div class="col">
+                    <div class="card h-100 shadow">
+                        <img src="Photos/Daco_1703273 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                                   printing and typesetting industry</p>
+                        </div>
+                        <div class="row p-5 ">
+                            <div class="col-sm-6">
+                                <h5 class="d-flex align-items-center  card-alignment">
+                                <span class="text-warning" style="color: #F57F17;">$234</span></h5>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="align-items-center  justify-content-center">
+                                  <button class="btn btn-primary text-light" style="color: #311B92;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card h-100 shadow">
+                      <img src="Photos/image 5.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Sneakers Skate Shoe </h5>
+                          <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                           printing and typesetting industry</p>
+                      </div>
+                      <div class="row p-5">
+                          <div class="col-sm-6">
+                            <h5 class="d-flex align-items-center  card-alignment">
+                              <span class="text-warning" style="color: #F57F17;">$234</span></h5>
+
+                          </div>
+                          <div class="col-sm-6">
+                              <div class=" align-items-center  justify-content-center">
+                                  <button class="btn btn-primary text-light" style="color: #311B92;">Buy Now</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow">
+                        <img src="Photos/pngegg 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sneakers Basketball shoe</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                             printing and typesetting industry</p>
+                        </div>
+                        <div class="row p-5">
+                            <div class="col-sm-6">
+                              <h5 class="d-flex align-items-center  card-alignment">
+                                <span class="text-warning" style="color: #F57F17;">$234</span></h5>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <div class=" align-items-center  justify-content-center">
+                                    <button class="btn btn-primary text-light" style="color: #311B92;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- casual shoe Cards  end here -->
+
+        <!-- Formal shoe Cards  starts here -->
+        <section class="mt-5">
+            <div class="col-auto mr-auto ">
+                <h3>CASUAL SHOES</h3>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-5 category-space  ">
+                <div class="col ">
+                    <div class="card h-100 shadow ">
+                        <img src="Photos/Mask Group.png" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Prestige High-Cut Leather </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="row p-5">
+                            <div class="col-sm-6">
+                              <h5 class="d-flex align-items-center  card-alignment">
+                                <span class="text-warning" style="color: #F57F17;">$234</span></h5>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="align-items-center  justify-content-center">
+                                    <button class="btn btn-primary text-light" style="color: #311B92;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 shadow">
+                        <img src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Slip-On Formal Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="row p-5">
+                            <div class="col-sm-6">
+                              <h5 class="d-flex align-items-center  card-alignment">
+                                <span class="text-warning" style="color: #F57F17;">$234</span></h5>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="align-items-center  justify-content-center">
+                                    <button class="btn btn-primary text-light" style="color: #311B92;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow">
+                        <img src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Slip-On Formal Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="row p-5">
+                            <div class="col-sm-6">
+                              <h5 class="d-flex align-items-center  card-alignment">
+                                <span class="text-warning" style="color: #F57F17;">$234</span></h5>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="align-items-center  justify-content-center">
+                                    <button class="btn btn-primary text-light" style="color: #311B92;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             
+                </div>
+            </div>
+        </section>
+
+       <!--Feedback section  end-->
+        <section class=" mt-5 p-5" >
+            <div class="row">
+              <div class="col-md-7">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 p-2 mt-2 ml-auto ">
+                      <img style="width: 70px" src="Logo, Icon/image 12.png" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class=" card-body align-items-center">
+                        <h5 class="card-title">Find the Perfect Fit</h5>
+                        <p class="card-text">Everybody is different, which is why we
+                          offer styles for every body.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 p-2 mt-2 ml-auto">
+                      <img style="width: 70px;" src="Logo, Icon/image 13.png" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body align-items-center">
+                        <h5 class="card-title">Free Exchanges</h5>
+                        <p class="card-text">One of the many reasons you can shop
+                          with peace of mind.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 p-2" style="max-width: 540px;">
+                  <div  class="row g-0">
+                    <div class="col-md-4 p-2 mt-2 ml-auto">
+                      <img style="width: 70px;" src="Logo, Icon/image 14.png" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body align-items-center">
+                        <h5 class="card-title">Slip-On Formal Shoe</h5>
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                           printing and typesetting industry.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 mt-5">
+                <img style="width: 100%;height: auto;"
+                src="Logo, Icon/XMLID 1.png"
+                alt=""
+              />
+              </div>
+            </div>
+          </section>
+          <!--Feedback section end -->
+
+          <!--All categorie start-->
+          <section class="container mt-5 p-5">
+            <div class="categorie-title card-alignment">
+              <h3>All shoes Categorie</h3>
+            </div>
+            
+        
+            <div class="category-space">
+              <div class="row">
+        
+                <div class="col-md-3 d-flex align-items-center">
+                  <img src="Photos/Daco_1703273 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-md-3">
+                  <img src="Photos/Mask Group.png" class="d-block w-100" alt="...">
+                  <img src="Photos/pngegg 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-md-6">
+                  <img src="Logo, Icon/XMLID 1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+        
+          </section>
+          <!--All categorie start-->
+        
+    </main>
+
+
+
+
+
+    
+    <script src="style/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
+
 </html>
